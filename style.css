@@ -1,0 +1,60 @@
+body{
+    background-color: tan;
+
+}
+
+#game{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.rod{
+    border: 1px solid black;
+    background-color: black;
+    height: 80px;
+    width: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+
+
+.redPlate{
+    display: flex;
+    background-color: rgb(228, 77, 77);
+    height: 15px;
+    width:80px;
+}
+
+#greenPlate{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgba(21, 138, 21, 0.788);
+    height: 15px;
+    width: 60px;
+
+}
+
+#purplePlate{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgba(114, 22, 114, 0.795);
+    height: 15px;
+    width: 40px;
+}
+
+#bluePlate{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(65, 65, 206);
+    height: 15px;
+    width: 20px;
+}
+
+
+
+
