@@ -21,9 +21,13 @@ body{
 
 }
 
+.rodBox{
+    border: 2px solid black;
+    padding: 75px;
+}
 
 
-.redPlate{
+#redPlate{
     display: flex;
     background-color: rgb(228, 77, 77);
     height: 15px;
