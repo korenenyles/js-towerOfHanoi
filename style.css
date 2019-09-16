@@ -1,6 +1,13 @@
 body{
     background-color: tan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+#instructionsHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #game{
@@ -24,6 +31,9 @@ body{
 .rodBox{
     border: 2px solid black;
     padding: 75px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
