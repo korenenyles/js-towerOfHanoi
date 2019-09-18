@@ -25,16 +25,11 @@ body{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    
 
 }
 
-.rodBox{
-    border: 2px solid black;
-    padding: 75px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 
 
 #redPlate{
@@ -70,5 +65,15 @@ body{
 }
 
 
+.executeButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 44%;
+  }
+  
+  
+  
+  
 
 

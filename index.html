@@ -7,32 +7,28 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header id = instructionsHead>
-        <h1>Assessment: Tower of Hanoi</h1>
-        <h2>By: Koren Nyles and Patrick Buzzo</h2>
-        <p>Instructions: Click upon the rod that you would like to move the colored plate from.
-          <br> Then, click upon the rod of the one in which you would like to place the selected plate. 
-          <br>Please remember, one CANNOT stack plates on top of their smaller counterparts. 
-          <br>Your goal is to move all plates from the left rod to another one successfully. GOOD LUCK!</p>
-    </header>
+    <h1>Assessment: Tower of Hanoi</h1>
+    <h3>By: Koren Nyles and Patrick Buzzo</h3>
+    <h4>Instructions: Click upon the plate that you would like to move. Then, click upon the rod on which you would like to place the selected plate. after those two have been "clicked" upon, press the button to execute the move. 
+    Please remember, one CANNOT stack plates on top of their smaller counterparts. Your goal is to move all plates from the left rod to another one successfully. GOOD LUCK!</h4>
+    <!--<div></div>-->
     
-    <container class="container">
-    <div id = game >    
-      <div id = "beginnerRodBox" class = "rodBox">
+
+    <div id = game class="container">    
         <div id="beginnerRod" class="rod">
-          <div id = "redPlate"></div>
-          <div id = "greenPlate"></div>
-          <div id = "purplePlate"></div>
-          <div id = "bluePlate"></div></div>
+          <div id = "redPlate" class="plate"></div>
+          <div id = "greenPlate" class="plate"></div>
+          <div id = "purplePlate" class="plate"></div>
+          <div id = "bluePlate" class="plate"></div>
+        </div>
+        <div id="offsetRod" class="rod"></div>
+        <div id="endRod" class="rod"></div>
     </div>
-      <div id = "offsetRodBox" class = "rodBox">   
-        <div id="offsetRod" class="rod"></div></div>
-      <div id = "endRodBox" class = "rodBox">
-        <div id="endRod" class="rod"></div></div>
+    <button onclick="selectionMade()" class="executeButton">Click Here to Execute Move!</button>
         
     
-    </div></container>
+
  
-    <script src="script.js"></script>
+  <script src="script.js"></script>
   </body>
 </html>
